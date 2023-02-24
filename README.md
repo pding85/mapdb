@@ -1,6 +1,9 @@
 <img src="https://raw.githubusercontent.com/jankotek/mapdb-site/gh-pages/images/art/rocket-small.png" width=90 height=90 align="left"/>
 
 MapDB: database engine 
+
+目前  ,mapdb在内存回收方面存在问题。空间碎片太多，需要更合理的回收策略。
+
 =======================
 [![Build Status](https://travis-ci.org/jankotek/mapdb.svg?branch=master)](https://travis-ci.org/jankotek/mapdb)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.mapdb/mapdb/badge.svg)](https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.mapdb%22%20AND%20a%3Amapdb)
